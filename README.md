@@ -17,9 +17,9 @@ Place the following files in one directory:
 ### 2. Install Dependencies
 
 - ```bash
-  pip install opencv-python ultralytics deep_sort_realtime
+pip install opencv-python ultralytics deep_sort_realtime
 
 ### 3. Running the Code
 - ```bash
-    python track.py
+python track.py
   
