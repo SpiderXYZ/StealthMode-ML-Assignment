@@ -12,11 +12,14 @@ Given a 15-second video clip, detect all players and ensure each player maintain
 Place the following files in one directory:
 - `track.py`
 - `15sec_input_720p.mp4` (input video)
-- `best.pt` (downloaded detection model)
+- `best.pt` (detection model)
 
 ### 2. Install Dependencies
 
-```bash
-pip install opencv-python ultralytics deep_sort_realtime
+- ```bash
+  pip install opencv-python ultralytics deep_sort_realtime
 
-
+### 3. Running the Code
+- ```bash
+    python track.py
+  
